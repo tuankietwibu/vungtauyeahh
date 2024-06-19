@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thầy trò Sóc Vàng</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+ 
+    
+    
+    
+    
+    
+    <div class="container">
+        <h1>Những chuyến đi bất ổn</h1>
+        <div class="albums">
+            <div class="album" data-album="album1">
+                <img src="images/album1/img1.jpg" alt="Album 1">
+                <p>Vũng Tàu 1</p>
+            </div>
+            <div class="album" data-album="album2">
+                <img src="images/album2/img3.jpg" alt="Album 2">
+                <p>Vũng Tèo 2</p>
+            </div>
+        </div>
+        <div class="gallery" id="gallery">
+            <button id="backBtn">Trờ về ở đây nè!</button>
+            <div id="galleryContent"></div>
+            <button id="loadMoreBtn">Bấm vào để xem thêm nhé!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<style>
+
+
+body {
+    background-image: url('back.jpg');
+    background-size: cover; /* Hoặc contain tùy theo yêu cầu */
+    background-repeat: no-repeat; /* Ngăn việc lặp lại hình ảnh */
+    background-attachment: fixed; /* Giữ hình nền cố định khi cuộn */
+    background-position: center; /* Canh giữa hình nền */
+}
+</style> 
+
+
+    </html>
